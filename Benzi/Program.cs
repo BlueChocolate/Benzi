@@ -15,7 +15,6 @@ namespace Benzi
 
             // Add services to the container.
             builder.Services.AddRazorComponents()
-                .AddInteractiveServerComponents()
                 .AddInteractiveWebAssemblyComponents();
 
             var app = builder.Build();
@@ -38,7 +37,6 @@ namespace Benzi
             app.UseAntiforgery();
 
             app.MapRazorComponents<App>()
-                .AddInteractiveServerRenderMode()
                 .AddInteractiveWebAssemblyRenderMode()
                 .AddAdditionalAssemblies(typeof(Client._Imports).Assembly);
 
