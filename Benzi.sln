@@ -12,10 +12,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GitHub Files", "GitHub File
 		README.md = README.md
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Benzi", "Benzi\Benzi\Benzi.csproj", "{09B9A75C-F89C-4973-A82F-6CCFA29B98A8}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Benzi.Client", "Benzi\Benzi.Client\Benzi.Client.csproj", "{4DE63CC7-69EC-4F65-B5EB-30AB79D306A3}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Benzi.Shared", "Benzi.Shared\Benzi.Shared.csproj", "{DDD612CE-6570-4774-A00B-66A0D4FC55ED}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Issue Templates", "Issue Templates", "{334CA36C-2CC7-4528-BA12-AC75DCD50239}"
@@ -24,24 +20,28 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Issue Templates", "Issue Te
 		.github\ISSUE_TEMPLATE\feature-request---.md = .github\ISSUE_TEMPLATE\feature-request---.md
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Benzi", "Benzi\Benzi\Benzi.csproj", "{DFF93ECC-1242-433A-A7A7-2096258CC676}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Benzi.Client", "Benzi\Benzi.Client\Benzi.Client.csproj", "{9D2357B4-3D60-47A9-A63C-D21ABF1F7425}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{09B9A75C-F89C-4973-A82F-6CCFA29B98A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{09B9A75C-F89C-4973-A82F-6CCFA29B98A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{09B9A75C-F89C-4973-A82F-6CCFA29B98A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{09B9A75C-F89C-4973-A82F-6CCFA29B98A8}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4DE63CC7-69EC-4F65-B5EB-30AB79D306A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4DE63CC7-69EC-4F65-B5EB-30AB79D306A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4DE63CC7-69EC-4F65-B5EB-30AB79D306A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4DE63CC7-69EC-4F65-B5EB-30AB79D306A3}.Release|Any CPU.Build.0 = Release|Any CPU
 		{DDD612CE-6570-4774-A00B-66A0D4FC55ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{DDD612CE-6570-4774-A00B-66A0D4FC55ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DDD612CE-6570-4774-A00B-66A0D4FC55ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DDD612CE-6570-4774-A00B-66A0D4FC55ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFF93ECC-1242-433A-A7A7-2096258CC676}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFF93ECC-1242-433A-A7A7-2096258CC676}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFF93ECC-1242-433A-A7A7-2096258CC676}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFF93ECC-1242-433A-A7A7-2096258CC676}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D2357B4-3D60-47A9-A63C-D21ABF1F7425}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D2357B4-3D60-47A9-A63C-D21ABF1F7425}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D2357B4-3D60-47A9-A63C-D21ABF1F7425}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D2357B4-3D60-47A9-A63C-D21ABF1F7425}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
